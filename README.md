@@ -1,4 +1,7 @@
 # acertTest
+
+A aplicação está em Java 8, utilizando um banco de dados em memória H2 porém é possível adicionar qualquer banco de dados de sua preferencia.
+
 ### EndPoints:
 
 Consulta cliente

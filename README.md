@@ -9,7 +9,7 @@ Porém não é obrigatório, caso o envio seja realizado sem parametros, é cons
 
 Cadastro de cliente
 #Post http://localhost:8080/cliente
-body:
+body
 ```json
 {
     "cnpj" : "28849244000162",
@@ -19,7 +19,7 @@ body:
 
 Edição de cliente
 #Put http://localhost:8080/cliente/id
-body:
+body
 ```json
 
 {

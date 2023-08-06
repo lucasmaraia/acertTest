@@ -10,7 +10,7 @@ Porém não é obrigatório, caso o envio seja realizado sem parametros, é cons
 Cadastro de cliente
 #Post http://localhost:8080/cliente
 body
-```json
+
 {
     "cnpj" : "28849244000162",
     "nome" : " Lucas Maraia S.a",
@@ -20,7 +20,7 @@ body
 Edição de cliente
 #Put http://localhost:8080/cliente/id
 body
-```json
+
 
 {
     "cnpj" : "28849244000162",
@@ -36,7 +36,7 @@ Porém não é obrigatório, caso o envio seja realizado sem parametros, é cons
 
 Cadastro de pedido
 #Post http://localhost:8080/pedido
-```json
+
 {
   "descricao": "Pedido da Giovanna",
   "cliente": {
@@ -47,7 +47,7 @@ Cadastro de pedido
 
 Edição de pedido
 #Put http://localhost:8080/pedido/id
-```json
+
 {
   "descricao": "Este pedido da Giovanna mudou o valor",
   "cliente": {
@@ -63,7 +63,7 @@ Porém não é obrigatório, caso o envio seja realizado sem parametros, é cons
 
 Cadastro de Entrega
 #Post http://localhost:8080/entrega
-```json
+
 {
     "descricao" : "Esta entrega é da Giovanna",
     "endereco" : "Avenida dos Ourives 480",
@@ -74,7 +74,7 @@ Cadastro de Entrega
 
 Edição de entrega
 #Put http://localhost:8080/entrega/id
-```json
+
 {
   "descricao": "Este pedido da Giovanna mudou o valor",
   "cliente": {
